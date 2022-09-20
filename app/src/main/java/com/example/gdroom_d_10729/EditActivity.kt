@@ -23,7 +23,7 @@ class EditActivity : AppCompatActivity() {
         setupView()
         setupListener()
 
-//        Toast.makeText(, "this", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, noteId.toString(),Toast.LENGTH_SHORT).show()
     }
 
     fun setupView(){
